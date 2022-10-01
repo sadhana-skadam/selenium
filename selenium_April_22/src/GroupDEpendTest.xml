@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+<groups>
+<dependencies>
+<group name="checkT" depends-on="launchB"/>
+<group name="signin" depends-on="checkT"/>
+<group name="signout" depends-on="signin"/>
+</dependencies>
+</groups>
+ <classes>
+      <class name="daily_2_prog.GroupDEpendTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

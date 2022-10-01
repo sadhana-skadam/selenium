@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test" parllel="classes">
+
+    <classes>
+      <class name="TestNg_program.NewChromeTest"/>
+      <class name="TestNg_program.NewFirefoxTest"/>
+
+      <class name="TestNg_program.NewEdgeTest"/>
+
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

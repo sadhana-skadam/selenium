@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="classes" name="Suite">
+  <test name="chromebrowTest">
+<parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="daily_2_prog.Newcrossb2Test"/>
+    </classes>
+  </test> <!-- Test -->
+ <test name="EgdeBowsTest">
+<parameter name="browser" value="edge"/>
+    <classes>
+      <class name="daily_2_prog.Newcrossb2Test"/>
+    </classes>
+  </test> <!-- Test -->
+ <test name=" firefocBrowTest">
+<parameter name="browser" value="gecko"/>
+    <classes>
+      <class name="daily_2_prog.Newcrossb2Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
